@@ -1,0 +1,15 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Analysis Result</title>
+</head>
+<body>
+    <h1>Sentiment Analysis Result</h1>
+    <p><strong>Review:</strong> {{ review }}</p>
+    <p><strong>Predicted Sentiment:</strong> {{ sentiment }}</p>
+    <p><strong>Confidence Score:</strong> {{ confidence | round(2) }}</p>
+    <a href="/">Analyze another review</a>
+</body>
+</html>
