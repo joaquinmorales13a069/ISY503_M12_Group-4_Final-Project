@@ -162,6 +162,9 @@ cython_debug/
 .idea/
 
 .python-version
+.DS_Store
+NLP_Model/.DS_Store
+.vscode/
 
 # Ignore everything in the Models folder
 NLP_Model/model/
