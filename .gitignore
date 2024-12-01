@@ -162,3 +162,9 @@ cython_debug/
 .idea/
 
 .python-version
+
+# Ignore everything in the Models folder
+NLP_Model/model/
+
+# Ignore everything in the Results folder
+NLP_Model/Results/
